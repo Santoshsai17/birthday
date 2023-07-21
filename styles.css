@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #8707c2;
+    background: linear-gradient(to right bottom,red,blue);
   }
   /* 239ac2 */
   
@@ -23,6 +23,7 @@ body {
   }
   
   .birthdayCard:hover {
+    scale: 1.2;
     transform: perspective(2500px) rotate(5deg);
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
       0 10px 100px rgba(0, 0, 0, 0.5);
