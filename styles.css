@@ -1,4 +1,6 @@
-
+*::selection{
+  user-select: none;
+}
 
 
 
